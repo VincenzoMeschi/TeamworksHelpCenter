@@ -1,0 +1,68 @@
+name: Lighthouse
+"on": [push]
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: zendesk/checkout@v3
+      - name: Setup Node.js
+        uses: zendesk/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+      - name: Install node_modules
+        run: yarn install --frozen-lockfile
+      - name: Build
+        run: yarn build
+      - name: Setup Ruby
+        uses: zendesk/setup-ruby@v1
+        with:
+          ruby-version: .ruby-version
+      - name: Install gems
+        run: |
+          gem install faraday -v 0.16.0
+          gem install faraday_middleware -v 0.13.1
+      - name: Create theme zip
+        run: |
+          sudo apt-get install zip
+          zip \
+            -i=assets/\* -x=assets/.gitkeep \
+            -i=settings/\* \
+            -i=templates/\* \
+            -i=translations/\* \
+            -i=manifest.json \
+            -i=script.js \
+            -i=style.css \
+            -i=thumbnail.png \
+            -r theme.zip .
+      - name: Upload theme
+        run: ruby ./.github/workflows/theme_upload.rb
+        env:
+          zendesk_email: ${{ secrets.zendesk_email }}
+          zendesk_token: ${{ secrets.zendesk_token }}
+          brand_id: ${{ secrets.brand_id }}
+          subdomain: ${{ secrets.subdomain }}
+      - name: Audit URLs using Lighthouse
+        run: yarn test-a11y
+        env:
+          end_user_email: ${{ secrets.end_user_email }}
+          end_user_password: ${{ secrets.end_user_password }}
+          subdomain: ${{ secrets.subdomain }}
+          urls: |
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/categories/360002267479
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/sections/360003307259
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/articles/360010829359
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/requests/new
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/search?utf8=%E2%9C%93&query=Help+Center
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/community/topics
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/community/topics/360000644279
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/community/posts
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/community/posts/360006766799
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/profiles/364655812519
+            https://${{ secrets.subdomain }}.zendesk.com/hc/contributions/posts?locale=en-us
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/subscriptions
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/requests
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/requests/3
+            https://${{ secrets.subdomain }}.zendesk.com/hc/en-us/community/posts/new
