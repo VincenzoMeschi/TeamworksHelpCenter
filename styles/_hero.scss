@@ -9,7 +9,7 @@
   width: 100%;
 
   &-inner {
-    @include vertical-align;
+    @include left-align;
     max-width: 610px;
     margin: 0 auto;
   }

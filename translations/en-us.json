@@ -38,6 +38,8 @@
   "homepage_background_image_description": "Hero image on the home page",
   "homepage_background_image_label": "Home hero image",
   "home_page_group_label": "Home page elements",
+  "home_page_main_text_description": "h1 text on the home page in the hero section",
+  "home_page_main_text_label": "Home page main text",
   "hover_link_color_description": "Text color for the hover state of link elements",
   "hover_link_color_label": "Hover link color",
   "images_group_label": "Images",

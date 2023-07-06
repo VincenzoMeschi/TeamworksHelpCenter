@@ -13,7 +13,7 @@
           "type": "color",
           "description": "brand_color_description",
           "label": "brand_color_label",
-          "value": "#17494D"
+          "value": "#1f2022"
         },
         {
           "identifier": "brand_text_color",
@@ -27,14 +27,14 @@
           "type": "color",
           "description": "text_color_description",
           "label": "text_color_label",
-          "value": "#2F3941"
+          "value": "#FFFFFF"
         },
         {
           "identifier": "link_color",
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "#1F73B7"
+          "value": "#FFFFFF"
         },
         {
           "identifier": "hover_link_color",
@@ -42,13 +42,6 @@
           "description": "hover_link_color_description",
           "label": "hover_link_color_label",
           "value": "#0F3554"
-        },
-        {
-          "identifier": "visited_link_color",
-          "type": "color",
-          "description": "visited_link_color_description",
-          "label": "visited_link_color_label",
-          "value": "#9358B0"
         },
         {
           "identifier": "background_color",
@@ -154,6 +147,10 @@
               "value": "'Arial Black', Arial, 'Helvetica Neue', Helvetica, sans-serif"
             },
             {
+              "label": "Barlow",
+              "value": "'Barlow', sans-serif"
+            },
+            {
               "label": "Baskerville",
               "value": "Baskerville, 'Times New Roman', Times, serif"
             },
@@ -202,6 +199,10 @@
               "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
             },
             {
+              "label": "Manrope",
+              "value": "'Manrope', sans-serif"
+            },
+            {
               "label": "Trebuchet MS",
               "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
             }
@@ -237,12 +238,6 @@
     {
       "label": "images_group_label",
       "variables": [
-        {
-          "identifier": "homepage_background_image",
-          "type": "file",
-          "description": "homepage_background_image_description",
-          "label": "homepage_background_image_label"
-        },
         {
           "identifier": "community_background_image",
           "type": "file",
@@ -292,6 +287,13 @@
           "description": "recent_activity_description",
           "label": "recent_activity_label",
           "value": true
+        },
+        {
+          "identifier": "home_page_main_text",
+          "type": "text",
+          "description": "home_page_main_text_description",
+          "label": "home_page_main_text_label",
+          "value": "Welcome to Teamworks Support"
         }
       ]
     },
