@@ -1163,8 +1163,10 @@ ul {
   color: #fff;
   margin: 32px 0;
   font-size: 64px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.1;
+  letter-spacing: -.03em;
+  margin-top: 0;
 }
 
 .hero-left p {
@@ -1213,6 +1215,12 @@ ul {
   flex-direction: column;
   justify-content: center;
   align-items: right;
+}
+
+.hero-image {
+  width: 100%;
+  object-fit: cover;
+  object-position: right;
 }
 
 .page-header {

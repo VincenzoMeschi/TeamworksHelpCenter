@@ -1,7 +1,7 @@
 {
   "name": "Copenhagen",
   "author": "Zendesk",
-  "version": "3.0.10",
+  "version": "3.0.11",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -253,6 +253,12 @@
           "type": "file",
           "description": "community_image_description",
           "label": "community_image_label"
+        },
+        {
+          "identifier": "home_page_main_hero_image",
+          "type": "file",
+          "description": "home_page_main_hero_image_description",
+          "label": "home_page_main_hero_image_label"
         }
       ]
     },

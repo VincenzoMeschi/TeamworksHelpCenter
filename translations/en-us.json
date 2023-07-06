@@ -36,6 +36,8 @@
   "heading_font_description": "Font for headings",
   "heading_font_label": "Heading Font",
   "homepage_background_image_description": "Hero image on the home page",
+  "home_page_main_hero_image_description": "Image on the right side of the hero",
+  "home_page_main_hero_image_label": "Home hero image",
   "homepage_background_image_label": "Home hero image",
   "home_page_group_label": "Home page elements",
   "home_page_main_text_description": "h1 text on the home page in the hero section",
