@@ -122,6 +122,10 @@
               "value": "'Lucida Grande', 'Lucida Sans', 'Lucida Sans Unicode', sans-serif"
             },
             {
+              "label": "Manrope",
+              "value": "'Manrope', sans-serif"
+            },
+            {
               "label": "Trebuchet MS",
               "value": "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"
             }
