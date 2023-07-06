@@ -3,18 +3,15 @@
 <header class="header">
   <div class="logo">
     {{#link 'help_center'}}
-      <img src="{{settings.logo}}" alt="{{t 'home_page' name=help_center.name}}" />
-      {{#if settings.show_brand_name}}
-        <span aria-hidden="true">{{help_center.name}}</span>
-      {{/if}}
+      <img src="../settings/Teamworks-Logo_White_Horizontal.png" alt="{{t 'home_page' name=help_center.name}}" />
     {{/link}}
   </div>
 
   <div class="nav-wrapper-desktop">
     <nav class="user-nav" id="user-nav">
       <ul class="user-nav-list">
-        <li>{{link 'community'}}</li>
-        <li>{{link 'new_request' class='submit-a-request'}}</li>
+        <li><a href="https://learn.teamworks.com">Learning Portal</a></li>
+        <li><a href="https://teamworks.zendesk.com/hc/en-us/requests/new">Submit a Request</a></li>
         {{#unless signed_in}}
           <li>
             {{#link "sign_in" class="sign-in"}}
