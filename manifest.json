@@ -265,12 +265,7 @@
           "type": "file",
           "description": "home_page_main_hero_image_description",
           "label": "home_page_main_hero_image_label"
-        }
-      ]
-    },
-    {
-      "label": "brands_group_label",
-      "variables": [
+        },
         {
           "identifier": "hub_logo_color-black_rgb",
           "type": "file",
