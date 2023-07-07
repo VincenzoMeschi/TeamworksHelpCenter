@@ -1,5 +1,5 @@
 {
-  "name": "Teamworks-Main",
+  "name": "Copenhagen",
   "author": "Vincenzo Meschi",
   "version": "3.0.12",
   "api_version": 3,
@@ -242,29 +242,6 @@
           "type": "file",
           "description": "favicon_description",
           "label": "favicon_label"
-        }
-      ]
-    },
-    {
-      "label": "images_group_label",
-      "variables": [
-        {
-          "identifier": "community_background_image",
-          "type": "file",
-          "description": "community_background_image_description",
-          "label": "community_background_image_label"
-        },
-        {
-          "identifier": "community_image",
-          "type": "file",
-          "description": "community_image_description",
-          "label": "community_image_label"
-        },
-        {
-          "identifier": "home_page_main_hero_image",
-          "type": "file",
-          "description": "home_page_main_hero_image_description",
-          "label": "home_page_main_hero_image_label"
         },
         {
           "identifier": "hub_logo_color-black_rgb",
@@ -395,6 +372,29 @@
           "description": "pathways_link_description",
           "label": "pathways_link_label",
           "value": "https://teamworks.zendesk.com"
+        }
+      ]
+    },
+    {
+      "label": "images_group_label",
+      "variables": [
+        {
+          "identifier": "community_background_image",
+          "type": "file",
+          "description": "community_background_image_description",
+          "label": "community_background_image_label"
+        },
+        {
+          "identifier": "community_image",
+          "type": "file",
+          "description": "community_image_description",
+          "label": "community_image_label"
+        },
+        {
+          "identifier": "home_page_main_hero_image",
+          "type": "file",
+          "description": "home_page_main_hero_image_description",
+          "label": "home_page_main_hero_image_label"
         }
       ]
     },
