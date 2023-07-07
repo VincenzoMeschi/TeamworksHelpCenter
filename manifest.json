@@ -322,16 +322,16 @@
           "label": "whistle_logo_color_black_label"
         },
         {
-          "identifier": "smartabase_logo_color_black_rgb",
+          "identifier": "s_logo_color_black_rgb",
           "type": "file",
-          "description": "smartabase_logo_color_black_rgb_description",
-          "label": "smartabase_logo_color_black_rgb_label"
+          "description": "s_logo_color_black_rgb_description",
+          "label": "s_logo_color_black_rgb_label"
         },
         {
-          "identifier": "communities_logo_color_black_rgb",
+          "identifier": "c_logo_color_black_rgb",
           "type": "file",
-          "description": "communities_logo_color_black_rgb_description",
-          "label": "communities_logo_color_black_rgb_label"
+          "description": "c_logo_color_black_rgb_description",
+          "label": "c_logo_color_black_rgb_label"
         },
         {
           "identifier": "pulse_logo_color_black_rgb",
