@@ -1,25 +1,62 @@
 <footer class="footer">
-  <div class="footer-inner">
-    {{#link 'help_center'}}{{help_center.name}}{{/link}}
-
-    <div class="footer-language-selector">
-      {{#if alternative_locales}}
-        <div class="dropdown language-selector">
-          <button class="dropdown-toggle" aria-haspopup="true">
-            {{current_locale.name}}
-            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="dropdown-chevron-icon">
-              <path fill="none" stroke="currentColor" stroke-linecap="round" d="M3 4.5l2.6 2.6c.2.2.5.2.7 0L9 4.5"/>
-            </svg>
-          </button>
-          <span class="dropdown-menu dropdown-menu-end" role="menu">
-            {{#each alternative_locales}}
-              <a href="{{url}}" dir="{{direction}}" rel="nofollow" role="menuitem">
-                {{name}}
-              </a>
-            {{/each}}
-          </span>
+  <div class="footer-container">
+    <div class="footer-grid">
+      <div class="footer-column">
+        <a href="/" class="footer-logo">
+          <img src="{{settings.logo_black}}" alt="Teamworks Logo" width="120">
+        </a>
+        <h5 class="footer-h4">The Operating System for Sports™</h5>
+        <a href="/hub" aria-current="page" class="footer-link email">info@teamworks.com</a>
+        <div class="footer-text">(202) 875-8930</div>
+      </div>
+      <div class="footer-column" id="footer1">
+        <div class="footer-title">Products</div>
+        <a href="https://teamworks.com/hub" aria-current="page" class="footer-link" target="_blank">Hub</a>
+        <a href="https://teamworks.com/arms" class="footer-link" target="_blank">ARMS</a>
+        <a href="https://teamworks.com/inflcr" class="footer-link" target="_blank">INFLCR</a>
+        <a href="https://teamworks.com/notemeal" class="footer-link" target="_blank">Notemeal</a>
+        <a href="https://teamworks.com/whistle" class="footer-link" target="_blank">Whistle</a>
+        <a href="https://teamworks.com/smartabase" class="footer-link" target="_blank">Smartabase</a>
+        <a href="https://teamworks.com/retain" class="footer-link" target="_blank">Retain</a>
+        <a href="https://teamworks.com/pulse" class="footer-link" target="_blank">Pulse</a>
+        <a href="https://teamworks.com/retain#pathways" class="footer-link" target="_blank">Pathways</a>
+        <a href="https://teamworks.com/communities" class="footer-link" target="_blank">Communities</a>
+      </div>
+      <div class="footer-column" id="footer2">
+        <div class="footer-title">Solutions</div>
+        <a href="https://teamworks.com/collegiate-departments" class="footer-link"  target="_blank">Collegiate</a>
+        <a href="https://teamworks.com/professional-teams-leagues" class="footer-link"  target="_blank">U.S. Pro Sports</a>
+        <a href="https://teamworks.com/global" class="footer-link"  target="_blank">Global Pro Sports</a>
+        <a href="https://teamworks.com/national-teams" class="footer-link"  target="_blank">National Teams</a>
+        <a href="https://explore.teamworks.com/military" target="_blank" class="footer-link">Military</a>
+        <a href="https://teamworks.com/elite" class="footer-link"  target="_blank">Teamworks Elite</a>
+      </div>
+      <div class="footer-column" id="footer3">
+        <div class="footer-title">Company</div>
+        <a href="https://teamworks.com/company" class="footer-link">About</a>
+        <a href="https://www.teamworks.com/company#careers" class="footer-link">Careers</a>
+        <a href="https://teamworks.com/contact" class="footer-link">Contact Us</a>
+        <a href="https://teamworks.zendesk.com/hc/en-us/" class="footer-link">Support</a>
+      </div>
+      <div class="footer-column" id="footer4">
+        <div class="footer-title">Log in</div>
+        <a href="https://login.teamworksapp.com/" class="footer-link">Teamworks Login</a>
+        <a href="https://my.armssoftware.com/arms/login" class="footer-link">ARMS Login</a>
+        <a href="https://dash.inflcr.com/" class="footer-link">INFLCR&nbsp;Login</a>
+        <a href="https://notemeal.io/login" class="footer-link">Notemeal Login</a>
+        <a href="https://app.whistlerecruiting.com/login" class="footer-link">Whistle Login</a>
+      </div>
+    </div>
+  </div>
+  <div class="legal">
+    <div class="container">
+      <div class="legal-wrapper">
+        <div class="legal-links">
+          <a href="https://teamworks.com/accessibility" class="detail-link">Accessibility</a>
+          <a href="https://teamworks.com/privacy-policy" class="detail-link">Privacy Policy</a>
         </div>
-      {{/if}}
+        <div class="detail">© 2023 Copyright Teamworks Innovations</div>
+      </div>
     </div>
   </div>
 </footer>

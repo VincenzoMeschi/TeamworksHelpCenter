@@ -1,7 +1,7 @@
 {
-  "name": "Copenhagen",
-  "author": "Zendesk",
-  "version": "3.0.11",
+  "name": "Teamworks-Main",
+  "author": "Vincenzo Meschi",
+  "version": "3.0.12",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -225,6 +225,12 @@
           "label": "logo_label"
         },
         {
+          "identifier": "logo_black",
+          "type": "file",
+          "description": "logo_description",
+          "label": "logo_label"
+        },
+        {
           "identifier": "show_brand_name",
           "type": "checkbox",
           "description": "show_brand_name_description",
@@ -259,6 +265,141 @@
           "type": "file",
           "description": "home_page_main_hero_image_description",
           "label": "home_page_main_hero_image_label"
+        }
+      ]
+    },
+    {
+      "label": "brands_group_label",
+      "variables": [
+        {
+          "identifier": "hub_logo_color-black_rgb",
+          "type": "file",
+          "description": "hub_logo_color-black_rgb_description",
+          "label": "hub_logo_color-black_rgb_label"
+        },
+        {
+          "identifier": "hub_link",
+          "type": "text",
+          "description": "hub_link_description",
+          "label": "hub_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
+          "identifier": "inflcr_logo_color-black",
+          "type": "file",
+          "description": "inflcr_logo_color-black_description",
+          "label": "inflcr_logo_color-black_label"
+        },
+        {
+          "identifier": "inflcr_link",
+          "type": "text",
+          "description": "inflcr_link_description",
+          "label": "inflcr_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
+          "identifier": "notemeal_logo_color-black_rgb",
+          "type": "file",
+          "description": "notemeal_logo_color-black_rgb_description",
+          "label": "notemeal_logo_color-black_rgb_label"
+        },
+        {
+          "identifier": "notemeal_link",
+          "type": "text",
+          "description": "notemeal_link_description",
+          "label": "notemeal_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
+          "identifier": "whistle_logo_color-black",
+          "type": "file",
+          "description": "whistle_logo_color-black_description",
+          "label": "whistle_logo_color-black_label"
+        },
+        {
+          "identifier": "whistle_link",
+          "type": "text",
+          "description": "whistle_link_description",
+          "label": "whistle_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
+          "identifier": "smartabase_logo_color-black_rgb",
+          "type": "file",
+          "description": "smartabase_logo_color-black_rgb_description",
+          "label": "smartabase_logo_color-black_rgb_label"
+        },
+        {
+          "identifier": "smartabase_link",
+          "type": "text",
+          "description": "smartabase_link_description",
+          "label": "smartabase_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
+          "identifier": "communities_logo_color-black_rgb",
+          "type": "file",
+          "description": "communities_logo_color-black_rgb_description",
+          "label": "communities_logo_color-black_rgb_label"
+        },
+        {
+          "identifier": "communities_link",
+          "type": "text",
+          "description": "communities_link_description",
+          "label": "communities_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
+          "identifier": "pulse_logo_color-black_rgb",
+          "type": "file",
+          "description": "pulse_logo_color-black_rgb_description",
+          "label": "pulse_logo_color-black_rgb_label"
+        },
+        {
+          "identifier": "pulse_link",
+          "type": "text",
+          "description": "pulse_link_description",
+          "label": "pulse_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
+          "identifier": "retain_logo_color-black_rgb",
+          "type": "file",
+          "description": "retain_logo_color-black_rgb_description",
+          "label": "retain_logo_color-black_rgb_label"
+        },
+        {
+          "identifier": "retain_link",
+          "type": "text",
+          "description": "retain_link_description",
+          "label": "retain_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
+          "identifier": "arms_logo_color-black",
+          "type": "file",
+          "description": "arms_logo_color-black_description",
+          "label": "arms_logo_color-black_label"
+        },
+        {
+          "identifier": "arms_link",
+          "type": "text",
+          "description": "arms_link_description",
+          "label": "arms_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
+          "identifier": "pathways_logo-color_rgb",
+          "type": "file",
+          "description": "pathways_logo-color_rgb_description",
+          "label": "pathways_logo-color_rgb_label"
+        },
+        {
+          "identifier": "pathways_link",
+          "type": "text",
+          "description": "pathways_link_description",
+          "label": "pathways_link_label",
+          "value": "https://teamworks.zendesk.com"
         }
       ]
     },

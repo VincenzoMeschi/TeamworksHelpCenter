@@ -5,84 +5,100 @@
     <div class="hero-left">
       <h1>{{settings.home_page_main_text}}</h1>
       <p>Explore our range of products, access guidance and optimize your Teamworks experience.</p>
-      <div class="hero-btn-group">
-        <a href="#" class="main-tw-button">Get started →</a>
-        <a href="https://teamworks.zendesk.com/hc/en-us/requests/new" class="alt-tw-button">Submit a request</a>
-      </div>
     </div>
     <div class="hero-right">
-      {{!-- <img class="hero-image" src="{{settings.home_page_main_hero_image}}" alt="All products that Teamworks offers including Smartabase, Pulse, Hub, Retain, Whistle, Communities, Inflcr, ARMS, Navigate, and Notemeal"> --}}
+      <img class="hero-image" src="{{settings.home_page_main_hero_image}}" alt="All products that Teamworks offers including Smartabase, Pulse, Hub, Retain, Whistle, Communities, Inflcr, ARMS, Navigate, and Notemeal">
     </div>
   </div>
 </section>
 
 <div class="container">
-  <section class="section knowledge-base">
-    <h2 class="visibility-hidden">{{ t 'categories' }}</h2>
-    <section class="categories blocks">
-      <ul class="blocks-list">
-        {{#each categories}}
-          {{#if ../has_multiple_categories}}
-            <li class="blocks-item">
-              <a href='{{url}}' class="blocks-item-link">
-                <span class="blocks-item-title">{{name}}</span>
-                <span class="blocks-item-description">{{excerpt description}}</span>
-              </a>
-            </li>
-          {{else}}
-            {{#each sections}}
-              <li class="blocks-item">
-                <a href='{{url}}' class="blocks-item-link">
-                  <span class="blocks-item-title">
-                    {{name}}
-                  </span>
-                  <span class="blocks-item-description">{{excerpt description}}</span>
-                </a>
-              </li>
-            {{/each}}
-          {{/if}}
-        {{/each}}
-      </ul>
-      {{pagination}}
-    </section>
+  <section id="launchpad" class="section">
+    <div class="launchpad-container">
+      <h2>Choose a Product</h2>
+      <div class="launchpad-grid">
 
-    {{#if promoted_articles}}
-      <section class="articles">
-        <h2>{{t 'promoted_articles'}}</h2>
-        <ul class="article-list promoted-articles">
-          {{#each promoted_articles}}
-            <li class="promoted-articles-item">
-                <a href="{{url}}">
-                  {{title}}
+        <div class="product">
+          <a href="{{settings.hub_link}}">
+            <img src="{{settings.hub_logo_color-black_rgb}}" alt="Hub Logo">
+          </a>
+        </div>
 
-                  {{#if internal}}
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-lock" title="{{t 'internal'}}">
-                      <rect width="12" height="9" x="2" y="7" fill="currentColor" rx="1" ry="1"/>
-                      <path fill="none" stroke="currentColor" d="M4.5 7.5V4a3.5 3.5 0 017 0v3.5"/>
-                    </svg>
-                  {{/if}}
-                </a>
-            </li>
-          {{/each}}
-        </ul>
-      </section>
-    {{/if}}
+        <div class="product">
+          <a href="{{settings.inflcr_link}}">
+            <img src="{{settings.inflcr_logo_color-black}}" alt="INFLCR Logo">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="{{settings.notemeal_link}}">
+            <img src="{{settings.notemeal_logo_color-black_rgb}}" alt="Notemeal Logo">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="{{settings.whistle_link}}">
+            <img src="{{settings.whistle_logo_color-black}}" alt="Whistle Logo">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="{{settings.smartabase_link}}">
+            <img src="{{settings.smartabase_logo_color-black_rgb}}" alt="Smartabase Logo" height="460">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="{{settings.communities_link}}">
+            <img src="{{settings.communities_logo_color-black_rgb}}" alt="Communities Logo" height="460">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="{{settings.pulse_link}}">
+            <img src="{{settings.pulse_logo_color-black_rgb}}" alt="Pulse Logo" height="460">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="{{settings.retain_link}}">
+            <img src="{{settings.retain_logo_color-black_rgb}}" alt="Retain Logo" height="460">
+          </a>
+        </div>
+
+        <div class="product">
+          <a href="{{settings.arms_link}}">
+            <img src="{{settings.arms_logo_color-black}}" alt="ARMS Logo">
+          </a>
+        </div>
+
+        <div class="product placeholder">
+          {{!-- blank for centering purposes --}}
+        </div>
+
+        <div class="product">
+          <a href="{{settings.pathways_link}}">
+            <img src="{{settings.pathways_logo-color_rgb}}" alt="Pathways Logo">
+          </a>
+        </div>
+
+        <div class="product placeholder">
+          {{!-- blank for centering purposes --}}
+        </div>
+
+
+      </div>
+    </div>
   </section>
+</div>
 
-  {{#if help_center.community_enabled}}
-    <section class="section home-section community">
-      <h2>{{t 'community'}}</h2>
-      {{#link 'community' class='community-link'}}
-        {{t 'join_conversation'}}
-      {{/link}}
-
-      <div class="community-image"></div>
-    </section>
-  {{/if}}
-
-  <section class="section home-section activity">
-    {{#if settings.show_recent_activity}}
-      {{recent_activity}}
-    {{/if}}
+{{!-- Banner ad --}}
+<div class="container">
+  <section id="banner-ad" class="section">
+    <div class="banner-ad-container">
+      <a href="{{settings.banner_ad_link}}">
+        <img src="{{settings.banner_ad_image}}" alt="Banner Ad">
+      </a>
+    </div>
   </section>
 </div>
