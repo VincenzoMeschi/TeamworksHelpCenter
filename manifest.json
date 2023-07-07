@@ -298,64 +298,64 @@
       "label": "teamworkslogos_group_label",
       "variables": [
         {
-          "identifier": "hub_logo_color-black_rgb",
+          "identifier": "hub_logo_color_black_rgb",
           "type": "file",
-          "description": "hub_logo_color-black_rgb_description",
-          "label": "hub_logo_color-black_rgb_label"
+          "description": "hub_logo_color_black_rgb_description",
+          "label": "hub_logo_color_black_rgb_label"
         },
         {
-          "identifier": "inflcr_logo_color-black",
+          "identifier": "inflcr_logo_color_black",
           "type": "file",
-          "description": "inflcr_logo_color-black_description",
-          "label": "inflcr_logo_color-black_label"
+          "description": "inflcr_logo_color_black_description",
+          "label": "inflcr_logo_color_black_label"
         },
         {
-          "identifier": "notemeal_logo_color-black_rgb",
+          "identifier": "notemeal_logo_color_black_rgb",
           "type": "file",
-          "description": "notemeal_logo_color-black_rgb_description",
-          "label": "notemeal_logo_color-black_rgb_label"
+          "description": "notemeal_logo_color_black_rgb_description",
+          "label": "notemeal_logo_color_black_rgb_label"
         },
         {
-          "identifier": "whistle_logo_color-black",
+          "identifier": "whistle_logo_color_black",
           "type": "file",
-          "description": "whistle_logo_color-black_description",
-          "label": "whistle_logo_color-black_label"
+          "description": "whistle_logo_color_black_description",
+          "label": "whistle_logo_color_black_label"
         },
         {
-          "identifier": "smartabase_logo_color-black_rgb",
+          "identifier": "smartabase_logo_color_black_rgb",
           "type": "file",
-          "description": "smartabase_logo_color-black_rgb_description",
-          "label": "smartabase_logo_color-black_rgb_label"
+          "description": "smartabase_logo_color_black_rgb_description",
+          "label": "smartabase_logo_color_black_rgb_label"
         },
         {
-          "identifier": "communities_logo_color-black_rgb",
+          "identifier": "communities_logo_color_black_rgb",
           "type": "file",
-          "description": "communities_logo_color-black_rgb_description",
-          "label": "communities_logo_color-black_rgb_label"
+          "description": "communities_logo_color_black_rgb_description",
+          "label": "communities_logo_color_black_rgb_label"
         },
         {
-          "identifier": "pulse_logo_color-black_rgb",
+          "identifier": "pulse_logo_color_black_rgb",
           "type": "file",
-          "description": "pulse_logo_color-black_rgb_description",
-          "label": "pulse_logo_color-black_rgb_label"
+          "description": "pulse_logo_color_black_rgb_description",
+          "label": "pulse_logo_color_black_rgb_label"
         },
         {
-          "identifier": "retain_logo_color-black_rgb",
+          "identifier": "retain_logo_color_black_rgb",
           "type": "file",
-          "description": "retain_logo_color-black_rgb_description",
-          "label": "retain_logo_color-black_rgb_label"
+          "description": "retain_logo_color_black_rgb_description",
+          "label": "retain_logo_color_black_rgb_label"
         },
         {
-          "identifier": "arms_logo_color-black",
+          "identifier": "arms_logo_color_black",
           "type": "file",
-          "description": "arms_logo_color-black_description",
-          "label": "arms_logo_color-black_label"
+          "description": "arms_logo_color_black_description",
+          "label": "arms_logo_color_black_label"
         },
         {
-          "identifier": "pathways_logo-color_rgb",
+          "identifier": "pathways_logo_color_rgb",
           "type": "file",
-          "description": "pathways_logo-color_rgb_description",
-          "label": "pathways_logo-color_rgb_label"
+          "description": "pathways_logo_color_rgb_description",
+          "label": "pathways_logo_color_rgb_label"
         }
       ]
     },
