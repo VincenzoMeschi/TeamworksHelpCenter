@@ -12,6 +12,7 @@
   function toggleNavigation(toggle, menu) {
     const isExpanded = menu.getAttribute("aria-expanded") === "true";
     toggle.setAttribute("aria-expanded", !isExpanded);
+    menu.setAttribute("aria-expanded", !isExpanded);
   }
 
   function closeNavigation(toggle) {

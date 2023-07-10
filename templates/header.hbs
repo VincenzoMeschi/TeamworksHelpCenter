@@ -53,7 +53,7 @@
         {{user_avatar class="user-avatar"}}
       {{/if}}
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" focusable="false" viewBox="0 0 16 16" class="icon-menu">
-        <path fill="none" stroke="currentColor" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13"/>
+        <path fill="none" stroke="{{settings.brand_text_color}}" stroke-linecap="round" d="M1.5 3.5h13m-13 4h13m-13 4h13"/>
       </svg>
     </button>
     <nav class="menu-list-mobile" id="user-nav-mobile" aria-expanded="false">
@@ -68,9 +68,8 @@
               </div>
             {{/my_profile}}
           </li>
-          <li class="item">{{link "requests" role="menuitem"}}</li>
-          <li class="item">{{#link "contributions" role="menuitem"}}{{t "activities"}}{{/link}}</li>
-          <li class="item">{{contact_details role="menuitem"}}</li>
+          <li><a href="https://learn.teamworks.com">Learning Portal</a></li>
+          <li><a href="https://teamworks.zendesk.com/hc/en-us/requests/new">Submit a Request</a></li>
           <li class="item">{{change_password role="menuitem" class='change-password'}}</li>
           <li class="nav-divider"></li>
         {{else}}
@@ -81,15 +80,14 @@
           </li>
           <li class="nav-divider"></li>
         {{/if}}
-        <li class="item">{{link 'community' role="menuitem"}}</li>
-        <li class="item">{{link 'new_request' role="menuitem" class='submit-a-request'}}</li>
         <li class="nav-divider"></li>
         {{#if signed_in}}
           <li class="item">
-            {{link "sign_out" role="menuitem"}}
+            {{#link "sign_out" role="menuitem"}}
+              {{t 'sign_out'}}
+            {{/link}}
           </li>
         {{/if}}
-        </li>
       </ul>
     </nav>
   </div>
