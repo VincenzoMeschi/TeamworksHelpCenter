@@ -1523,6 +1523,57 @@ ul {
   font-size: 15px;
 }
 
+/***** Banner Section *****/
+.banner-container {
+  background-image: url($banner_background_image);
+  background-position: center;
+  background-size: cover;
+  height: 543px;
+  width: 100%;
+  margin: 200px 0 -1rem;
+}
+
+.banner-inner {
+  display: flex;
+  flex-direction: column;
+  padding: 8rem 9rem;
+  color: $background_color;
+}
+
+.banner-title {
+  font-size: 35px;
+  margin: 0;
+/*   text-transform: uppercase; */
+}
+
+.banner-description {
+  width: 45%;
+  margin-bottom: 30px;
+}
+
+.banner-button {
+  text-decoration: none;
+  font-size: 15px;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: none;
+}
+
+@media (max-width: 768px) {
+  .banner-inner {
+    padding: 2rem;
+  }
+  .banner-description {
+    width: 100%;
+  }
+}
+
 /***** Blocks *****/
 /* Used in Homepage#categories and Community#topics */
 .blocks-list {
@@ -3967,7 +4018,7 @@ ul {
 }
 
 .meta-data {
-  color: lighten($text_color, 20%);
+  color: lighten($link_color, 20%);
   font-size: 13px;
 }
 .meta-data:not(:last-child)::after {
@@ -4095,7 +4146,7 @@ ul {
 }
 
 .profile-stats .stat-label {
-  color: lighten($text_color, 20%);
+  color: lighten($link_color, 20%);
   flex: 0 0 100px;
   margin-right: 10px;
 }
@@ -4240,6 +4291,11 @@ ul {
 .profile-section-title {
   flex-basis: 100%;
   margin-bottom: 0;
+}
+
+.stat-value {
+  color: $link_color;
+  font-weight: 600;
 }
 
 .profile-section-description {

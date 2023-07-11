@@ -93,12 +93,18 @@
 </div>
 
 {{!-- Banner ad --}}
-<div class="container">
-  <section id="banner-ad" class="section">
-    <div class="banner-ad-container">
-      <a href="">
-        <img src="" alt="Banner Ad">
-      </a>
-    </div>
-  </section>
+<div class="banner-container">
+  <div class="banner-inner">
+    <h1 class="banner-title">{{ settings.banner_title }}</h1>
+    <p class="banner-description">
+      {{ settings.banner_description }}
+    </p>
+    <a class="button button-primary banner-button" href={{ settings.banner_button_link }}>
+      {{ settings.banner_button_text }}
+      <svg xmlns="http://www.w3.org/2000/svg" height="22px" viewBox="0 0 24 24" width="22px" fill="{{ settings.background_color }}">
+        <path d="M0 0h24v24H0V0z" fill="none"/>
+        <path d="M16.01 11H4v2h12.01v3L20 12l-3.99-4v3z"/>
+      </svg>
+    </a>
+  </div>
 </div>

@@ -1,7 +1,7 @@
 {
-  "name": "Teamworks Main 3.0.2",
+  "name": "Teamworks Main 3.0.3",
   "author": "Vincenzo Meschi",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -34,7 +34,7 @@
           "type": "color",
           "description": "link_color_description",
           "label": "link_color_label",
-          "value": "#FFFFFF"
+          "value": "#1f2022"
         },
         {
           "identifier": "hover_link_color",
@@ -49,6 +49,13 @@
           "description": "background_color_description",
           "label": "background_color_label",
           "value": "#FFFFFF"
+        },
+        {
+          "identifier": "banner_background_color",
+          "type": "color",
+          "description": "banner_background_description",
+          "label": "banner_background_label",
+          "value": "#1f2022"
         }
       ]
     },
@@ -431,6 +438,45 @@
           "description": "pathways_link_description",
           "label": "pathways_link_label",
           "value": "https://teamworks.zendesk.com"
+        }
+      ]
+    },
+    {
+      "label": "home_banner_group_label",
+      "variables": [
+        {
+          "identifier": "banner_title",
+          "type": "text",
+          "description": "banner_home_description",
+          "label": "banner_home_label",
+          "value": "Complete a Training Course"
+        },
+        {
+          "identifier": "banner_description",
+          "type": "text",
+          "description": "banner_desc_description",
+          "label": "banner_desc_label",
+          "value": "Learn how to use, create, and manage Teamworks products in our Learning Portal"
+        },
+        {
+          "identifier": "banner_background_image",
+          "type": "file",
+          "description": "banner_image_description",
+          "label": "banner_background_image_label"
+        },
+        {
+          "identifier": "banner_button_link",
+          "type": "text",
+          "description": "banner_link_description",
+          "label": "banner_link_label",
+          "value": "https://learn.teamworks.com/"
+        },
+        {
+          "identifier": "banner_button_text",
+          "type": "text",
+          "description": "banner_btntext_description",
+          "label": "banner_btntext_label",
+          "value": "Get Started "
         }
       ]
     },
