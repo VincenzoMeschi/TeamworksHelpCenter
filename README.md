@@ -1,6 +1,6 @@
-# Teamworks Theme by Zendesk
+# Teamworks Theme by Vincenzo Meschi
 
-The Teamworks theme is a custom Zendesk Guide theme, based on the Copenhagen theme. It is designed to be responsive and accessible.
+The Teamworks theme is a custom theme by Vincenzo Meschi, based on the Copenhagen theme. It is designed to be responsive and accessible.
 Learn more about customizing Zendesk Guide [here](https://support.zendesk.com/hc/en-us/sections/206670747).
 
 The Teamworks theme for Help Center consists of:
