@@ -1,7 +1,7 @@
 {
-  "name": "Teamworks Main 3.0.6",
+  "name": "Teamworks Main 3.0.7",
   "author": "Vincenzo Meschi",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -354,6 +354,12 @@
         },
         {
           "identifier": "arms_logo_color_black",
+          "type": "file",
+          "description": "arms_logo_color_black_description",
+          "label": "arms_logo_color_black_label"
+        },
+        {
+          "identifier": "arms_camps_logo_color_black",
           "type": "file",
           "description": "arms_logo_color_black_description",
           "label": "arms_logo_color_black_label"
