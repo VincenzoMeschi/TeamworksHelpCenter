@@ -433,6 +433,13 @@
           "value": "https://teamworks.zendesk.com"
         },
         {
+          "identifier": "arms_camps_link",
+          "type": "text",
+          "description": "arms_link_description",
+          "label": "arms_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
           "identifier": "pathways_link",
           "type": "text",
           "description": "pathways_link_description",
