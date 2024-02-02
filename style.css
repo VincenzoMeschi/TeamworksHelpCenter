@@ -814,6 +814,7 @@ ul {
   width: auto;
   min-width: 71px;
   cursor: pointer;
+  display: flex;
 }
 .nav-wrapper-mobile .menu-button-mobile .icon-menu {
   padding: 7px;
