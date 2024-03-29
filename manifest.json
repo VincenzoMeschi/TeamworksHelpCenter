@@ -1,7 +1,7 @@
 {
-  "name": "Teamworks Main 3.0.10",
+  "name": "Teamworks Main 3.0.11",
   "author": "Vincenzo Meschi",
-  "version": "3.0.10",
+  "version": "3.0.11",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -369,6 +369,18 @@
           "type": "file",
           "description": "pathways_logo_color_rgb_description",
           "label": "pathways_logo_color_rgb_label"
+        },
+        {
+          "identifier": "collectives",
+          "type": "file",
+          "description": "collectives_logo_description",
+          "label": "collectives_logo_label"
+        },
+        {
+          "identifier": "rcomms",
+          "type": "file",
+          "description": "rcomms_description",
+          "label": "rcomms_label"
         }
       ]
     },
@@ -450,6 +462,20 @@
           "type": "text",
           "description": "pathways_link_description",
           "label": "pathways_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
+          "identifier": "collectives_link",
+          "type": "text",
+          "description": "collectives_link_description",
+          "label": "collectives_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
+          "identifier": "rcomms_link",
+          "type": "text",
+          "description": "rcomms_link_description",
+          "label": "rcomms_link_label",
           "value": "https://teamworks.zendesk.com"
         }
       ]
