@@ -1,7 +1,7 @@
 {
-  "name": "Teamworks Main 3.0.11",
+  "name": "Teamworks Main 3.0.12",
   "author": "Vincenzo Meschi",
-  "version": "3.0.11",
+  "version": "3.0.12",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -305,70 +305,64 @@
       "label": "teamworkslogos_group_label",
       "variables": [
         {
-          "identifier": "hub_logo_color_black_rgb",
+          "identifier": "hub",
           "type": "file",
           "description": "hub_logo_color_black_rgb_description",
           "label": "hub_logo_color_black_rgb_label"
         },
         {
-          "identifier": "inflcr_logo_color_black",
+          "identifier": "camps",
           "type": "file",
-          "description": "inflcr_logo_color_black_description",
-          "label": "inflcr_logo_color_black_label"
+          "description": "camps_logo_color_black_description",
+          "label": "camps_logo_color_black_label"
         },
         {
-          "identifier": "notemeal_logo_color_black_rgb",
+          "identifier": "im",
           "type": "file",
-          "description": "notemeal_logo_color_black_rgb_description",
-          "label": "notemeal_logo_color_black_rgb_label"
+          "description": "im_logo_color_black_rgb_description",
+          "label": "im_logo_color_black_rgb_label"
         },
         {
-          "identifier": "whistle_logo_color_black",
+          "identifier": "nutrition",
           "type": "file",
-          "description": "whistle_logo_color_black_description",
-          "label": "whistle_logo_color_black_label"
+          "description": "nutrition_logo_color_black_description",
+          "label": "nutrition_logo_color_black_label"
         },
         {
-          "identifier": "s_logo_color_black_rgb",
+          "identifier": "ams",
           "type": "file",
-          "description": "s_logo_color_black_rgb_description",
-          "label": "s_logo_color_black_rgb_label"
+          "description": "ams_logo_color_black_rgb_description",
+          "label": "ams_logo_color_black_rgb_label"
         },
         {
-          "identifier": "c_logo_color_black_rgb",
+          "identifier": "crec",
           "type": "file",
-          "description": "c_logo_color_black_rgb_description",
-          "label": "c_logo_color_black_rgb_label"
+          "description": "crec_logo_color_black_rgb_description",
+          "label": "crec_logo_color_black_rgb_label"
         },
         {
-          "identifier": "pulse_logo_color_black_rgb",
+          "identifier": "academics",
           "type": "file",
-          "description": "pulse_logo_color_black_rgb_description",
-          "label": "pulse_logo_color_black_rgb_label"
+          "description": "academics_logo_color_black_rgb_description",
+          "label": "academics_logo_color_black_rgb_label"
         },
         {
-          "identifier": "retain_logo_color_black_rgb",
+          "identifier": "pathways",
           "type": "file",
-          "description": "retain_logo_color_black_rgb_description",
-          "label": "retain_logo_color_black_rgb_label"
+          "description": "pathways_logo_color_black_rgb_description",
+          "label": "pathways_logo_color_black_rgb_label"
         },
         {
-          "identifier": "arms_logo_color_black",
+          "identifier": "pulse",
           "type": "file",
-          "description": "arms_logo_color_black_description",
-          "label": "arms_logo_color_black_label"
+          "description": "pulse_logo_color_black_description",
+          "label": "pulse_logo_color_black_label"
         },
         {
-          "identifier": "arms_camps_logo_color_black",
+          "identifier": "influencer",
           "type": "file",
-          "description": "arms_logo_color_black_description",
-          "label": "arms_logo_color_black_label"
-        },
-        {
-          "identifier": "pathways_logo_color_rgb",
-          "type": "file",
-          "description": "pathways_logo_color_rgb_description",
-          "label": "pathways_logo_color_rgb_label"
+          "description": "influencer_logo_color_black_description",
+          "label": "influencer_logo_color_black_label"
         },
         {
           "identifier": "collectives",
@@ -395,38 +389,52 @@
           "value": "https://teamworks.zendesk.com"
         },
         {
-          "identifier": "inflcr_link",
+          "identifier": "camps_link",
           "type": "text",
-          "description": "inflcr_link_description",
-          "label": "inflcr_link_label",
+          "description": "camps_link_description",
+          "label": "camps_link_label",
           "value": "https://teamworks.zendesk.com"
         },
         {
-          "identifier": "notemeal_link",
+          "identifier": "im_link",
           "type": "text",
-          "description": "notemeal_link_description",
-          "label": "notemeal_link_label",
+          "description": "im_link_description",
+          "label": "im_link_label",
           "value": "https://teamworks.zendesk.com"
         },
         {
-          "identifier": "whistle_link",
+          "identifier": "nutrition_link",
           "type": "text",
-          "description": "whistle_link_description",
-          "label": "whistle_link_label",
+          "description": "nutrition_link_description",
+          "label": "nutrition_link_label",
           "value": "https://teamworks.zendesk.com"
         },
         {
-          "identifier": "smartabase_link",
+          "identifier": "ams_link",
           "type": "text",
-          "description": "smartabase_link_description",
-          "label": "smartabase_link_label",
+          "description": "ams_link_description",
+          "label": "ams_link_label",
           "value": "https://teamworks.zendesk.com"
         },
         {
-          "identifier": "communities_link",
+          "identifier": "crec_link",
           "type": "text",
-          "description": "communities_link_description",
-          "label": "communities_link_label",
+          "description": "crec_link_description",
+          "label": "crec_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
+          "identifier": "academics_link",
+          "type": "text",
+          "description": "academics_link_description",
+          "label": "academics_link_label",
+          "value": "https://teamworks.zendesk.com"
+        },
+        {
+          "identifier": "pathways_link",
+          "type": "text",
+          "description": "pathways_link_description",
+          "label": "pathways_link_label",
           "value": "https://teamworks.zendesk.com"
         },
         {
@@ -437,31 +445,10 @@
           "value": "https://teamworks.zendesk.com"
         },
         {
-          "identifier": "retain_link",
+          "identifier": "influencer_link",
           "type": "text",
-          "description": "retain_link_description",
-          "label": "retain_link_label",
-          "value": "https://teamworks.zendesk.com"
-        },
-        {
-          "identifier": "arms_link",
-          "type": "text",
-          "description": "arms_link_description",
-          "label": "arms_link_label",
-          "value": "https://teamworks.zendesk.com"
-        },
-        {
-          "identifier": "arms_camps_link",
-          "type": "text",
-          "description": "arms_link_description",
-          "label": "arms_link_label",
-          "value": "https://teamworks.zendesk.com"
-        },
-        {
-          "identifier": "pathways_link",
-          "type": "text",
-          "description": "pathways_link_description",
-          "label": "pathways_link_label",
+          "description": "influencer_link_description",
+          "label": "influencer_link_label",
           "value": "https://teamworks.zendesk.com"
         },
         {
